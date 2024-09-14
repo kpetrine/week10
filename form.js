@@ -15,7 +15,7 @@
   console.log(addButton);
   console.log(commentsTable);
 
-  // Create add button
+  // Add event listener add button
   addButton.addEventListener('click', () => {
        console.log("Button Clicked");
     const nameText =nameInput.value;

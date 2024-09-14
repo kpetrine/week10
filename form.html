@@ -94,7 +94,11 @@
       
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <h1>Leave a Comment</h1>
-        
+        <form action="">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="name" class="form-control" id="name"/>
+        </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
           <input type="email" class="form-control" id="email" placeholder="name@example.com">
@@ -103,6 +107,7 @@
           <label for="comment" class="form-label">Write your comment</label>
           <textarea class="form-control" id="comment" rows="3"></textarea>
         </div>
+      </form>
         <button id="add-comment" class="btn btn=primary">Add</button>
 
 
@@ -111,6 +116,7 @@
         <table class ="table table-hover table-striped">
           <thead>
             <tr>
+              <th>Name</th>
               <th>Email</th>
               <th>Comment</th>
               <th></th>
